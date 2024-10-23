@@ -1,0 +1,74 @@
+  /* Universal style for all elements */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body styles */
+body{
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    margin: 50px;
+    display: flex; 
+    height: 100vh;
+}
+/* Heading style */
+.heading{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.heading:hover{
+  font-size: 35px;
+  color:aqua;
+}
+/* Input field styles */
+.input{
+  width: 230px;
+  margin: 15px;
+  padding: 10px;
+  text-align: right;
+}
+.input:hover{
+  border: 2px solid aqua;
+  box-shadow: 3px 7px 5px rgb(0, 170, 255);
+  
+}
+/* Container styles */
+.container{
+  margin-top: 20px; 
+  position: absolute; 
+  display: flex;
+  border: 2px solid black;
+  border-radius: 20%; 
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#090a0a,#3e2b56,#222);
+  box-shadow: 10px 7px 7px rgb(0, 170, 255);
+} 
+/* Calculator Icons */
+.cal{
+  color: aqua;
+  padding: 10px;
+  margin-top: 40px;
+}
+/* Buttons styles */
+.button {
+     width: 45px;
+    height: 45px;
+    margin: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(0, 170, 255); 
+    
+  }
+.button:hover{
+  background-color: rgb(71, 235, 235);
+}
+
+
+
